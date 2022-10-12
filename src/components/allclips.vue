@@ -153,7 +153,6 @@ export default {
       clipRequest.send(null);
 
       var response = clipRequest.responseText;
-      console.log(response);
       var parsedResponse = JSON.parse(response);
       var clipArray = parsedResponse.data;
       for (var i = 0; i < clipArray.length; i++) {
